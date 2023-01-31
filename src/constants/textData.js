@@ -5,7 +5,7 @@ export const roles=["Duelist","Initiator","Controller"]
 export const  agentData=[
   {
     id:"1",
-    img:"./src/assets/jett.jpg",
+    img:"../src/assets/jett.jpg",
     name:"jett",
     role:"Duelist",
     bio : "Jett is a fast and agile Duelist who excels in quick engagements and aggressive plays. ",
