@@ -14,6 +14,7 @@ import { lightTheme,darkTheme } from '../theme'
     return(
         <nav 
            style={{
+            // A custom class could also come here instead of inline style
             boxShadow: isDark? "0px 0px 5px 3px rgba(230,23,230,1)": "0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3)"}}     
             className=' flex flex-col sm:flex-row w-full  justify-between items-center py-1 px-6 mb-2 mt-2'>
             <img  src={logo}

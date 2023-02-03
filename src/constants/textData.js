@@ -4,7 +4,9 @@ export const roles=["Duelist","Initiator","Controller"]
 
 export const  agentData=[
   {
+    // I would use either the native crypot api or a library to generate unique ids for each data
     id:"1",
+    // This is not right, use the importad impage path, not a relative path for the images
     img:"../src/assets/jett.jpg",
     name:"jett",
     role:"Duelist",
