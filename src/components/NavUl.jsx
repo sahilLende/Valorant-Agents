@@ -23,10 +23,10 @@ import { navLinks } from "../constants/textData";
                       sm:text-xl
                       hover:text-red-600 
                       transition-color delay-10 duration-30
-                   
                     ${index===navLinks.length-1?'mb-0':'mb-1'}
                     ${index===navLinks.length-1?'sm:mr-0':'sm:mr-10'}           `
                     }>
+                      {/* The 2 ternary can be composed together, no need for double checking */}
                         <a 
                          href={`#${nav.id}`}>
                         {nav.title}
